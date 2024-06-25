@@ -1,0 +1,35 @@
+[package]
+name = "raising_the_bar"
+version = "0.1.0"
+edition = "2021"
+authors = ["David Hasselquist", "Ethan Witwer", "August Carlson", "Niklas Johansson", "Niklas Carlsson"]
+repository = "https://github.com/trafnex/raising-the-bar"
+description = "Raising the Bar: Improved Fingerprinting Attacks and Defenses for Video Streaming Traffic (PETS '24)"
+
+[dependencies]
+maybenot = "1.1.0"
+rand = "0.7.3"
+
+[[bin]]
+name = "constant"
+test = false
+doctest = false
+bench = false
+
+[[bin]]
+name = "adapted_front"
+test = false
+doctest = false
+bench = false
+
+[[bin]]
+name = "adapted_regulator"
+test = false
+doctest = false
+bench = false
+
+[[bin]]
+name = "scrambler"
+test = false
+doctest = false
+bench = false
